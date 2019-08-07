@@ -79,6 +79,11 @@ p{
     display: inline-block;
 }
 
+.button:hover{
+    background:#e75605;
+    color:white;
+}
+
 main{
     clear:both;
 }
@@ -461,5 +466,10 @@ footer p{
         display: block;
         width:100%;
         margin:5px;
+    }
+
+    form .submit:hover{
+        background:#e75605;
+        color:white;
     }
 }
