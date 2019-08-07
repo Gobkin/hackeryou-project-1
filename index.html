@@ -19,6 +19,7 @@
                     <li class="pop"><a href="#">contact</a></li>
                     <li class="pop"><a href="#">about</a></li>
                 </ul>
+                <a href="#"><i class="toggler fas fa-bars"></i></a>
             </nav>
         </div>
     </header>
@@ -26,13 +27,11 @@
     <main>
 
         <section class="hero">
-            <!-- <div class="wrapper"> -->
-                <div class="burger">
-                    <img src="images/header-burger.png" alt="Large closeup of hamburger">
-                </div>
-                <div class="logo">
-                    <h1>Hangry Tummy</h1>
-                </div>
+            <div class="wrapper">
+                <div class="container clearfix">
+                    <div class="logo">
+                        <h1>Hangry Tummy</h1>
+                    </div>
                     <div class="social">
                         <ul>
                             <li class="pop">
@@ -58,32 +57,30 @@
                         </ul>
                     </div>
                 </div>
-            <!-- </div> -->
+            </div>
         </section>
-
+        
         <section class="about">
+            <div class="menu clearfix">
                 <div class="wrapper">
-                    <div class="menu">
-                        <div class="wrapper">
-                            <div class="content">
-                                <h2>new to our menu</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut delectus quae labore quo expedita maxime porro inventore iusto facere laboriosam aut cum et dicta neque ratione itaque numquam aspernatur?</p>
-                                <a href="#" class="button">read more</a>
-                            </div>
-                        </div>
-                        <img src="images/right-photo.jpg" alt="closeup of french fries and hamburger">
-                    </div>
-                    <div class="experience">
-                        <img src="images/left-photo.jpg" alt="top down view of three plates of food">
-                        <div class="wrapper">
-                            <div class="content">
-                                <h2>full experience</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium ipsam illo praesentium nisi nesciunt soluta, officia sunt, dicta tempore, optio voluptatum corrupti expedita. Provident ullam mollitia id dolor cumque!</p>
-                                <a href="#" class="button">read more</a>
-                            </div>
-                        </div>
+                    <div class="content">
+                        <h2>new to our menu</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut delectus quae labore quo expedita maxime porro inventore iusto facere laboriosam aut cum et dicta neque ratione itaque numquam aspernatur?</p>
+                        <a href="#" class="button">read more</a>
                     </div>
                 </div>
+                <img src="images/right-photo.jpg" alt="closeup of french fries and hamburger">
+            </div>
+            <div class="experience clearfix">
+                <div class="wrapper">
+                    <div class="content">
+                        <h2>full experience</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium ipsam illo praesentium nisi nesciunt soluta, officia sunt, dicta tempore, optio voluptatum corrupti expedita. Provident ullam mollitia id dolor cumque!</p>
+                        <a href="#" class="button">read more</a>
+                    </div>
+                </div>
+                <img src="images/left-photo.jpg" alt="top down view of three plates of food">
+            </div>
         </section>
 
         <section class="desserts">
@@ -158,11 +155,11 @@
                 <div class="subscribe">
                     <h2>stay updated</h2>
                     <p>Subscribe to our newsletter to stay updated.</p>
-                    <form class="email" action="">
+                    <form action="">
                         <label class="visually-hidden" for="email">enter email address to subscrive</label>
                         <!-- empty comment removes blank space between elements...aparently -->
-                        <input id="email" type="email address" placeholder="email address"><!--
-                        --><button>subscribe</button>
+                        <input class="email" id="email" type="email address" placeholder="email address"><!--
+                        --><input type="submit" value="subscribe" class="submit">
                     </form>
                 </div>
             </div>
