@@ -356,7 +356,9 @@ footer p{
     font-size: 1.6rem;
 }
 
-@media(max-width: 320px){
+/* MEDIA QUERIES */
+
+@media(max-width: 480px){
     header .navbar{
         display:none;
     }
@@ -378,11 +380,11 @@ footer p{
         height:60vh;
         background-position-y: 10rem;
         background-position-x: -10rem;
-        min-height: 380px;
+        min-height: 560px;
     }
 
     .container{
-        width: 75%;
+        width: 50%;
         padding-top: 0;
     }
 
@@ -471,5 +473,15 @@ footer p{
     form .submit:hover{
         background:#e75605;
         color:white;
+    }
+}
+
+@media (max-width: 320px){
+    .hero{
+        min-height: 320px;
+    }
+
+    .container{
+        width:75%;
     }
 }
