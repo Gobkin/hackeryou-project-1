@@ -49,7 +49,6 @@ h2,h3, .button{
 h1{
     font-size:14.64rem;
     line-height: 12rem;
-    /* margin-top:35%; */
 }
 
 h2{
@@ -352,13 +351,6 @@ footer p{
     font-size: 1.6rem;
 }
 
-/* Portrait tablet and small desktops */
-@media (max-width: 940px){}
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px){}
-/* Landscape phones and down */
-@media (max-width: 480px){}
-/*Even smaller*/
 @media(max-width: 320px){
     header .navbar{
         display:none;
